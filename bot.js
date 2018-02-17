@@ -6,19 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'Hi') {
-    msg.reply('Guten Tag!');
-  }
-});
-
-client.on('message', msg => {
   if (msg.content === 'Hallo') {
-    msg.reply('Guten Tag!!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'Moin') {
     msg.reply('Guten Tag!');
   }
 });
